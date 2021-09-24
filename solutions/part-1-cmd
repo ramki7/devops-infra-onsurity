@@ -1,0 +1,1 @@
+docker run -d  -p 9393:9300 -v /apporchid/docker/test/inputFile:/csvserver/inputdata --env=CSVSERVER_BORDER=Orange onsurity/csvserver
